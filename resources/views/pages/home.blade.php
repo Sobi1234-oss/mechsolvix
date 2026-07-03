@@ -6,7 +6,6 @@
     <!-- Carousel Start!-->
     @include('layouts.header')
       @include('layouts.carousel')
-      @include('partials._expertise_section')
 
 
 
@@ -25,6 +24,7 @@
      @include('partials.facts')
      @include('partials.hseq')
 
+   @include('partials._expertise_section')
 
 
 
@@ -35,4 +35,5 @@
 
 
         @include('partials.testimonials')
+        @include('partials.faq')
 @endsection

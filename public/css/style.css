@@ -1,5 +1,48 @@
 /*** Spinner Start ***/
+/* Add to your global styles */
+:root {
+  --primary-blue: #0a3d62;
+  --secondary-blue: #3b82f6;
+  --accent-blue: #60a5fa;
+  --success-green: #10b981;
+  --text-dark: #0a3d62;
+  --text-light: #64748b;
+  --bg-light: #f8fafc;
+  --bg-gradient: linear-gradient(135deg, #f8fafc 0%, #e6f0ff 100%);
+}
 
+body {
+  font-family: 'Raleway', sans-serif;
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Common Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Utility Classes */
+.section-padding {
+  padding: 120px 0;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 80px 0;
+  }
+}
 #spinner {
     opacity: 0;
     visibility: hidden;

@@ -71,7 +71,7 @@
                                         <span class="features-tag">#CertifiedWelders</span>
                                         <span class="features-tag">#ASMEStandard</span>
                                     </div>
-                                   
+
                                 </div>
                             </div>
                         </div>
